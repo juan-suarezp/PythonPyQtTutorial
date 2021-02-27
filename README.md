@@ -33,3 +33,5 @@ Como se puede observar, con Qt Designer es posible configurar la apariencia inic
 ![designerApariencia](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/designerApariencia.png)
 
 El siguiente paso es guardar el archivo .ui de Qt designer. En este caso lo llamaremos "Ejemplo.ui". Luego, desde Python abriremos este archivo .ui para conectar funciones y métodos a los elementos que agreguemos a nuestra interfaz.
+
+[Propiedades QWidgets](https://doc.qt.io/qt-5/widget-classes.html#the-widget-classes)
