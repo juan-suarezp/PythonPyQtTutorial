@@ -32,6 +32,106 @@ Como se puede observar, con Qt Designer es posible configurar la apariencia inic
 
 ![designerApariencia](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/designerApariencia.png)
 
-El siguiente paso es guardar el archivo .ui de Qt designer. En este caso lo llamaremos "Ejemplo.ui". Luego, desde Python abriremos este archivo .ui para conectar funciones y métodos a los elementos que agreguemos a nuestra interfaz.
+El siguiente paso es guardar el archivo .ui de Qt designer. En este caso lo llamaremos "Ejemplo.ui". Luego, desde Python abriremos este archivo .ui para conectar funciones y métodos a los elementos que agreguemos a nuestra interfaz, con el siguiente código:
 
-[Propiedades QWidgets](https://doc.qt.io/qt-5/widget-classes.html#the-widget-classes)
+```python
+# -*- coding: utf-8 -*-
+"""
+Ejemplo de ventana básico con botón para cambiar texto
+
+"""
+#importamos las librerías necesarias
+import sys
+from PyQt5 import QtWidgets, uic
+
+#Carga la interfaz gráfica y conecta los botones
+class Ventana(QtWidgets.QMainWindow):
+    '''Esta es la clase principal'''
+    #Inicializamos la ventana y conectamos los botones
+    def __init__(self, padre=None):
+        #Inicializa la ventana
+        QtWidgets.QMainWindow.__init__(self, padre)
+        uic.loadUi("Ejemplo.ui",self) #Lee el archivo de Qtdesigner
+        
+        self.setWindowTitle("Ejemplo") #Título de la ventana
+        
+        #Conectar botón a función
+        self.pushButton.clicked.connect(self.funcion)
+        
+    def funcion(self):
+        if self.label.text() == "":
+            self.label.setText("Hola clase")
+        else:
+            self.label.setText("")
+
+
+# se crea la instancia de la aplicación
+app = QtWidgets.QApplication(sys.argv)
+# se crea la instancia de la ventana
+miVentana = Ventana()
+# se muestra la ventana 
+miVentana.show()
+# se entrega el control al sistema operativo
+sys.exit(app.exec_())
+```
+
+Al ejecutar, el resultado es el siguiente:
+
+![resultado](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/resultado.png)
+
+En general, el procedimiento para crear una interfaz con PyQt y QtDesigner es el mismo siempre. Se crea la interfaz en QtDesigner y en Python se lee el archivo .ui y se conectan los QWidgets con los métodos y funciones.
+
+```python
+# -*- coding: utf-8 -*-
+"""
+Ejemplo de ventana básico con botón para cambiar texto
+
+"""
+#importamos las librerías necesarias
+import sys
+from PyQt5 import QtWidgets, uic
+```
+En esta parte del código se importan las liberías necesarias para abrir el archivo .ui y trabajar con PyQt.
+
+```python
+class Ventana(QtWidgets.QMainWindow):
+    '''Esta es la clase principal'''
+    #Inicializamos la ventana y conectamos los botones
+    def __init__(self, padre=None):
+        #Inicializa la ventana
+        QtWidgets.QMainWindow.__init__(self, padre)
+        uic.loadUi("Ejemplo.ui",self) #Lee el archivo de Qtdesigner
+```
+
+Luego se carga la interfaz y se inicializa la clase `Ventana`. En la última línea podemos ver cómo se carga el archivo.ui que creamos en QtDesigner.
+
+```python
+        self.setWindowTitle("Ejemplo") #Título de la ventana
+        
+        #Conectar botón a función
+        self.pushButton.clicked.connect(self.funcion)
+        
+    def funcion(self):
+        if self.label.text() == "":
+            self.label.setText("Hola clase")
+        else:
+            self.label.setText("")
+```
+
+En lo que sigue, se cambia el título de la ventana (también se puede cambiar desde QtDesigner) y se conecta el botón con el método `funcion`. Este método cambia el texto del label que hay en la ventana; si está vacío pone el mensaje "Hola clase", si tiene el mensaje, lo quita.
+
+Este es un ejemplo muy sencillo pero muestra el procedimiento general para crear una interfaz usando PyQt y QtDesigner.
+
+## Ejemplos
+Como se pudo observar, QtDesigner cuenta con muchos QWidgets disponibles. En esta parte se listan ejemplos usando los QWidgets que más se utilizan. [Aquí](https://doc.qt.io/qt-5/widget-classes.html#the-widget-classes) podemos encontrar las propiedades y señales de los QWidgets necesarias para conectarlos con los métodos y funciones en el código.
+- [Ejemplo 1]()
+- [Ejemplo 2]()
+- [Ejemplo 3]()
+- [Ejemplo 4]()
+- [Ejemplo 5]()
+- [Ejemplo 6]()
+- [Ejemplo 7]()
+- [Ejemplo 8]()
+- [Ejemplo 9]()
+- [Ejemplo 10]()
+- [Ejemplo 11]()
