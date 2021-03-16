@@ -123,8 +123,8 @@ En lo que sigue, se cambia el título de la ventana (también se puede cambiar d
 Este es un ejemplo muy sencillo pero muestra el procedimiento general para crear una interfaz usando PyQt y QtDesigner.
 
 ## Ejemplos
-Como se pudo observar, QtDesigner cuenta con muchos QWidgets disponibles. En esta parte se listan ejemplos usando los QWidgets que más se utilizan. [Aquí](https://doc.qt.io/qt-5/widget-classes.html#the-widget-classes) podemos encontrar las propiedades y señales de los QWidgets necesarias para conectarlos con los métodos y funciones en el código.
-- [Ejemplo 1]()
+Como se pudo observar, QtDesigner cuenta con muchos QWidgets disponibles. En esta parte se listan algunos ejemplos con los QWidgets que más se utilizan. [Aquí](https://doc.qt.io/qt-5/widget-classes.html#the-widget-classes) podemos encontrar las propiedades y señales de los QWidgets necesarias para conectarlos con los métodos y funciones en el código.
+- [Ejemplo 1]() - *Qbutton*
 - [Ejemplo 2]()
 - [Ejemplo 3]()
 - [Ejemplo 4]()
