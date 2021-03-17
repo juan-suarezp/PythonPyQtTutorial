@@ -7,12 +7,10 @@ PyQt es una librería de Python que permite crear interfaz gráfica de usuario (
 Lo primero es abrir el Qt Designer, nos encontraremos con lo siguiente:
 
 ![designer](https://user-images.githubusercontent.com/58320351/111403289-b6822480-869a-11eb-9f70-31bf8a582f72.png)
-![designer](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/designer.png)
 
 Luego seleccionamos "Main window" y presionamos el botón crear. Ahora aparecerá una ventana con dos QWidgets (así se llaman los elementos en Qt) llamados "menubar" y "statusbar".
 
 ![designerMainWindow](https://user-images.githubusercontent.com/58320351/111403327-c26de680-869a-11eb-984d-8fcde92a385b.png)
-![designerMainWindow](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/designerMainWindow.png)
 
 Los principales elementos, además de la barra superior de herramientas, de Qt designer son:
 1. **Caja de Widgets**, como su nombre lo indica, es donde están almacenados todos los QWidgets disponibles en Qt.
@@ -23,19 +21,16 @@ Los principales elementos, además de la barra superior de herramientas, de Qt d
 A continuación, debemos arrastrar desde la caja de widgets (1.) hasta la ventana en 2. los elementos o QWidgets que queremos usar en nuestra interfaz. Por ejemplo, si arrastramos un botón (QPushButton) y una etiqueta (QLabel), el resultado será el siguiente:
 
 ![designerEjemplo](https://user-images.githubusercontent.com/58320351/111403337-c7cb3100-869a-11eb-8e7d-9916a7dac6eb.png)
-![designerEjemplo](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/designerEjemplo.png)
 
 Podemos ver en el inspector de objetos (3.) como se agregan los nuevos QWidgets a la lista:
 
 ![designerInspector](https://user-images.githubusercontent.com/58320351/111403343-cbf74e80-869a-11eb-9c73-ef0dae3f78fb.png)
-![designerInspector](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/designerInspector.png)
 
 Es importante tener en cuenta el nombre que se le da a los QWidgets en el inspector de objetos, debido a que este nombre nos servirá para conectar los objetos de la ventana con los métodos y funciones que vayamos a usar luego. En este ejemplo no usaremos los QWidgets iniciales "menubar" y "statusbar", por lo que los eliminamos dando click derecho sobre su nombre en el inspector de objetos o directamente sobre el objeto en la ventana.
 
 Como se puede observar, con Qt Designer es posible configurar la apariencia inicial de nuestra ventana más fácil que con Tkinter. Por ejemplo, si queremos cambiar el texto inical de la etiqueta o del botón, basta con seleccionar el texto y escribir lo que queremos que aparezca. También permite cambiar los tamaños y demás opciones como el color (ver opción "palette" en el editor de propiedades):
 
 ![designerApariencia](https://user-images.githubusercontent.com/58320351/111403351-d0bc0280-869a-11eb-8bf9-cbeb0e593c97.png)
-![designerApariencia](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/designerApariencia.png)
 
 El siguiente paso es guardar el archivo .ui de Qt designer. En este caso lo llamaremos "Ejemplo.ui". Luego, desde Python abriremos este archivo .ui para conectar funciones y métodos a los elementos que agreguemos a nuestra interfaz, con el siguiente código:
 
@@ -83,7 +78,6 @@ sys.exit(app.exec_())
 Al ejecutar, el resultado es el siguiente:
 
 ![resultado](https://user-images.githubusercontent.com/58320351/111403367-d7e31080-869a-11eb-873d-560703dc348f.png)
-![resultado](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/resultado.png)
 
 En general, el procedimiento para crear una interfaz con PyQt y QtDesigner es el mismo siempre. Se crea la interfaz en QtDesigner y en Python se lee el archivo .ui y se conectan los QWidgets con los métodos y funciones.
 
@@ -158,4 +152,3 @@ Como se pudo observar, QtDesigner cuenta con muchos QWidgets disponibles. En est
 Para descargar los ejemplos (y todos los archivos de este repositorio), se debe seleccionar el botón verde `Code` que está en la parte superior derecha de la página principal del repositorio y luego seleccionar la opción `Download ZIP`. Después de descomprimir el archivo .ZIP, los archivos .ui y .py de los ejemplos estarán en la carpeta `ejemplos`.
 
 ![guardarEjemplos](https://user-images.githubusercontent.com/58320351/111403407-e92c1d00-869a-11eb-81e6-c70159c482ab.png)
-![guardarEjemplos](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/guardarEjemplos.png)
