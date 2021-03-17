@@ -51,7 +51,7 @@ class Ventana(QtWidgets.QMainWindow):
     def __init__(self, padre=None):
         #Inicializa la ventana
         QtWidgets.QMainWindow.__init__(self, padre)
-        uic.loadUi("Ejemplo.ui",self) #Lee el archivo de Qtdesigner
+        uic.loadUi("Ejemplo.ui",self) #Lee el archivo de QtDesigner
         
         self.setWindowTitle("Ejemplo") #Título de la ventana
         
@@ -100,7 +100,7 @@ class Ventana(QtWidgets.QMainWindow):
     def __init__(self, padre=None):
         #Inicializa la ventana
         QtWidgets.QMainWindow.__init__(self, padre)
-        uic.loadUi("Ejemplo.ui",self) #Lee el archivo de Qtdesigner
+        uic.loadUi("Ejemplo.ui",self) #Lee el archivo de QtDesigner
 ```
 
 Luego se carga la interfaz y se inicializa la clase `Ventana`. En la última línea podemos ver cómo se carga el archivo.ui que creamos en QtDesigner.
