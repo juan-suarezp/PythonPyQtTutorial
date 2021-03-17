@@ -27,11 +27,13 @@ class Ventana(QtWidgets.QMainWindow):
 
         #Agregar valores iniciales al QCombobox
         for i in range(20):
-            self.comboBox.insertItem(self.comboBox.count(), "Elemento {}".format(i))
+            self.comboBox.insertItem(self.comboBox.count(),
+                                     "Elemento {}".format(i))
         
     def agregar(self):
         if self.lineEdit.text() != "":
-            self.comboBox.insertItem(self.comboBox.count(), self.lineEdit.text())
+            self.comboBox.insertItem(self.comboBox.count(),
+                                     self.lineEdit.text())
             self.lineEdit.clear()
         else:
             pass
@@ -85,11 +87,13 @@ En esta parte del código se importan las librerías, se inicializa la clase `Ve
 
         #Agregar valores iniciales al QCombobox
         for i in range(20):
-            self.comboBox.insertItem(self.comboBox.count(), "Elemento {}".format(i))
+            self.comboBox.insertItem(self.comboBox.count(),
+                                     "Elemento {}".format(i))
         
     def agregar(self):
         if self.lineEdit.text() != "":
-            self.comboBox.insertItem(self.comboBox.count(), self.lineEdit.text())
+            self.comboBox.insertItem(self.comboBox.count(),
+                                     self.lineEdit.text())
             self.lineEdit.clear()
         else:
             pass
