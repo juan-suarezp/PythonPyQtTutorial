@@ -18,7 +18,7 @@ Los principales elementos, además de la barra superior de herramientas, de Qt d
 3. **Inspector de objetos**, donde se listan todos los QWidgets que se estén usando.
 4. **Editor de propiedades**, donde se pueden ver y editar las propiedades del QWidget seleccionado en el inspector de objetos (3.).
 
-A continuación, debemos arrastrar desde la caja de widgets (1.) hasta la ventana en 2. los elementos o QWidgets que queremos usar en nuestra interfaz. Por ejemplo, si arrastramos un botón (Push Button) y una etiqueta (Label), el resultado será el siguiente:
+A continuación, debemos arrastrar desde la caja de widgets (1.) hasta la ventana en 2. los elementos o QWidgets que queremos usar en nuestra interfaz. Por ejemplo, si arrastramos un botón (QPushButton) y una etiqueta (QLabel), el resultado será el siguiente:
 
 ![designerEjemplo](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/designerEjemplo.png)
 
@@ -124,7 +124,7 @@ Este es un ejemplo muy sencillo pero muestra el procedimiento general para crear
 
 ## Ejemplos
 Como se pudo observar, QtDesigner cuenta con muchos QWidgets disponibles. En esta parte se listan algunos ejemplos con los QWidgets que más se utilizan. [Aquí](https://doc.qt.io/qt-5/widget-classes.html#the-widget-classes) podemos encontrar las propiedades y señales de los QWidgets necesarias para conectarlos con los métodos y funciones en el código.
-- [Ejemplo 1]() - *Qbutton*
+- [Ejemplo 1]() - *QPushButton, QRadiobutton, QCheckBox.*
 - [Ejemplo 2]()
 - [Ejemplo 3]()
 - [Ejemplo 4]()
