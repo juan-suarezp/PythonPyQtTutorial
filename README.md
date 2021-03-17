@@ -120,6 +120,19 @@ Luego se carga la interfaz y se inicializa la clase `Ventana`. En la última lí
 
 En lo que sigue, se cambia el título de la ventana (también se puede cambiar desde QtDesigner) y se conecta el botón con el método `funcion`. Este método cambia el texto del label que hay en la ventana; si está vacío pone el mensaje "Hola clase", si tiene el mensaje, lo quita.
 
+```python
+# se crea la instancia de la aplicación
+app = QtWidgets.QApplication(sys.argv)
+# se crea la instancia de la ventana
+miVentana = Ventana()
+# se muestra la ventana 
+miVentana.show()
+# se entrega el control al sistema operativo
+sys.exit(app.exec_())
+```
+
+Finalmente, se crea la instancia de la clase `Ventana` y se ejecuta la aplicación.
+
 Este es un ejemplo muy sencillo pero muestra el procedimiento general para crear una interfaz usando PyQt y QtDesigner.
 
 ## Ejemplos
