@@ -140,14 +140,7 @@ Como se pudo observar, QtDesigner cuenta con muchos QWidgets disponibles. En est
 - [Ejemplo 1](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/ejemplos/ejemplo1/ejemplo1.md) - *QPushButton, QRadiobutton, QCheckBox.*
 - [Ejemplo 2](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/ejemplos/ejemplo2/ejemplo2.md) - *QPushButton, QLabel, QFrame, QComboBox, QLineEdit.*
 - [Ejemplo 3](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/ejemplos/ejemplo3/ejemplo3.md) - *QPushButton, QSpinBox, QListWidget, QToolBox.*
-- [Ejemplo 4](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/ejemplos/ejemplo4/ejemplo4.md)
 - [Ejemplo Proyecto](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/ejemplos/ejemploproyecto/ejemploproyecto.md)
-- [Ejemplo 6]()
-- [Ejemplo 7]()
-- [Ejemplo 8]()
-- [Ejemplo 9]()
-- [Ejemplo 10]()
-- [Ejemplo 11]()
 
 Para descargar los ejemplos (y todos los archivos de este repositorio), se debe seleccionar el botón verde `Code` que está en la parte superior derecha de la página principal del repositorio y luego seleccionar la opción `Download ZIP`. Después de descomprimir el archivo .ZIP, los archivos .ui y .py de los ejemplos estarán en la carpeta `ejemplos`.
 
