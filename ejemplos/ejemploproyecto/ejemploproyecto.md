@@ -1,5 +1,5 @@
 # Ejemplo Proyecto
-En este ejemplo se crea una interfaz que permite seleccionar una carpeta para listar los [archivos .lis](https://github.com/juan-suarezp/PythonTkinterTutorial/tree/master/otros%20ejemplos/proyecto) (cir0, cir1 y cir2) que hay en ella. Finalmente, es posible seleccionar uno de estos archivos para graficar en la interfaz.
+En este ejemplo se crea una interfaz que permite seleccionar una carpeta para listar los [archivos .lis](https://github.com/juan-suarezp/PythonPyQtTutorial/tree/master/ejemplos/ejemploproyecto) (cir0, cir1 y cir2) que hay en ella. Finalmente, es posible seleccionar uno de estos archivos para graficar en la interfaz.
 
 `Nota:` Para descargar los archivos .lis, ingresar al archivo que quiere descargar. Dar click derecho al botón `Raw` y después "guardar como..." o "guardar enlace como...". Esto permite descargar los archivos.
 
