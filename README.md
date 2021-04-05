@@ -141,7 +141,7 @@ Como se pudo observar, QtDesigner cuenta con muchos QWidgets disponibles. En est
 - [Ejemplo 2](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/ejemplos/ejemplo2/ejemplo2.md) - *QPushButton, QLabel, QFrame, QComboBox, QLineEdit.*
 - [Ejemplo 3](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/ejemplos/ejemplo3/ejemplo3.md) - *QPushButton, QSpinBox, QScrollBar, QListWidget, QToolBox.*
 - [Ejemplo 4](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/ejemplos/ejemplo4/ejemplo4.md)
-- [Ejemplo 5]()
+- [Ejemplo Proyecto](https://github.com/juan-suarezp/PythonPyQtTutorial/blob/master/ejemplos/ejemploproyecto/ejemploproyecto.md)
 - [Ejemplo 6]()
 - [Ejemplo 7]()
 - [Ejemplo 8]()
