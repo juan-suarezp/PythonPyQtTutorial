@@ -61,7 +61,7 @@ class Ventana(QtWidgets.QMainWindow):
                    QFileDialog.
                    getOpenFileName(self, "Abrir archivo", self.cwd))
         
-        self.label_2.setText("Archivo seleccionado: "+fileName[0])
+        self.label_2.setText("Archivo seleccionado: "+archivo[0])
 
         
     def mostrar_archivo(self, item):
