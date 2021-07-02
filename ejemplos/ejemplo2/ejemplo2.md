@@ -1,5 +1,5 @@
 # Ejemplo 2 - QPushButton, QLabel, QFrame, QComboBox y QLineEdit
-Este ejemplo muestra cómo usar botones, frames, combobox y line edit para entrada de texto. Los frames som QWidgets contenedores que permiten organizar otros QWidgets dentro de ellos. Los combobox permiten tener una lista de opciones predeterminada o agregar más elementos a la lista, para después seleccionar una de todas las opciones.
+Este ejemplo muestra cómo usar botones, labels, frames, combobox y line edit para entrada de texto. Los frames som QWidgets contenedores que permiten organizar otros QWidgets dentro de ellos. Los combobox permiten tener una lista de opciones predeterminada o agregar más elementos a la lista, para después seleccionar una de todas las opciones. Los line edit son entradas de texto y los label son etiquetas.
 
 ## Código
 ```python
