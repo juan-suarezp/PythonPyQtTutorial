@@ -5,7 +5,8 @@ Este ejemplo muestra cómo usar botones, listWidget, TabWidget y label para sele
 ```python
 # -*- coding: utf-8 -*-
 """
-Ejemplo de ventana básico con QPushButton, QListWidget, QTabWidget, QLabel
+Ejemplo de ventana básico con FileDialog, QPushButton, QListWidget, QTabWidget
+y QLabel
 
 """
 #importamos las librerías necesarias
